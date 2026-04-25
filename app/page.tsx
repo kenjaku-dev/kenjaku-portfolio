@@ -6,6 +6,7 @@ import Repos from '@/components/repos';
 import Testimonials from '@/components/testimonials';
 import Footer from '@/components/footer';
 import Splash from '@/components/splash';
+import ScrollToTop from '@/components/scroll-to-top';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Repos />
       <Testimonials />
       <Footer />
+      <ScrollToTop />
     </main>
   );
 }
