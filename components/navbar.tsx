@@ -33,6 +33,7 @@ export default function Navbar() {
           <nav className="flex items-center bg-white/5 border border-white/10 px-8 py-3 rounded-full shadow-lg backdrop-blur-md gap-8 text-[10px] uppercase tracking-widest font-bold text-white/50 pointer-events-auto">
             <a href="#home" className="hover:text-white transition-colors">Home</a>
             <a href="#features" className="hover:text-white transition-colors">Expertise</a>
+            <a href="#skills" className="hover:text-white transition-colors">Skills</a>
             <a href="#projects" className="hover:text-white transition-colors">Projects</a>
             <a href="#testimonials" className="hover:text-white transition-colors">Feedback</a>
           </nav>
