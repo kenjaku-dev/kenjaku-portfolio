@@ -87,7 +87,7 @@ export default function Footer() {
           />
           <div className="relative z-10">
             <h2 className="text-6xl md:text-[100px] font-black tracking-tighter text-white mb-8 max-w-4xl leading-[0.85] uppercase">
-              Let's build <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-purple-500">the future.</span>
+              Let&apos;s build <br /><span className="text-transparent bg-clip-text bg-gradient-to-r from-[#4F46E5] to-purple-500">the future.</span>
             </h2>
             <div className="flex flex-col md:flex-row md:items-center gap-6 mt-12">
               <a href="mailto:kenjaku.dev@example.com" className="h-16 inline-flex items-center justify-center px-10 bg-white text-black font-bold uppercase text-xs tracking-widest transition-all shadow-xl shadow-white/10 gap-3 w-max relative overflow-hidden group/btn hover:scale-105 active:scale-95 rounded-full">
@@ -115,11 +115,11 @@ export default function Footer() {
                KENJAKU<span className="text-[#4F46E5] group-hover:text-purple-500 transition-colors">.DEV</span>
             </div>
             <p className="text-white/40 max-w-sm text-sm leading-relaxed font-mono">
-              // DESIGN ENGINEER
+              {/* DESIGN ENGINEER */}
               <br />
-              // CREATIVE DEVELOPER
+              {/* CREATIVE DEVELOPER */}
               <br />
-              // SYSTEMS ARCHITECT
+              {/* SYSTEMS ARCHITECT */}
             </p>
           </div>
           

@@ -27,7 +27,11 @@ export default function CustomCursor() {
   const innerYSpring = useSpring(dotY, springConfigInner);
 
   useEffect(() => {
-    setIsMounted(true);
+    // Only update these when mounting, but handle state purely
+    const initCursor = () => {
+      setIsMounted(true);
+    };
+    initCursor();
 
     const moveCursor = (e: MouseEvent) => {
       cursorX.set(e.clientX - 16);

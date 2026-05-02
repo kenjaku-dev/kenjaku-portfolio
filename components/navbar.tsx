@@ -75,7 +75,7 @@ export default function Navbar() {
           >
             <span className="absolute inset-0 bg-gradient-to-r from-[#4F46E5] to-indigo-500 translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300 ease-in-out" />
             <span className="relative z-10 flex items-center gap-2 transition-colors group-hover:text-white">
-              Let's Talk <ExternalLink className="w-3.5 h-3.5" />
+              Let&apos;s Talk <ExternalLink className="w-3.5 h-3.5" />
             </span>
           </a>
           {/* Mobile Menu Button */}
